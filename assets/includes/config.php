@@ -1,12 +1,12 @@
 <?php //Database connection settings
 defined('DBH') ? null : define ('DBH' , 'localhost');
-defined('DBU') ? null : define ('DBU' , 'kbo_root');
+defined('DBU') ? null : define ('DBU' , 'root');
 defined('DBPW') ? null : define ('DBPW' , '');
-defined('DBN') ? null : define ('DBN' , 'kbo_qa');
+defined('DBN') ? null : define ('DBN' , 'kbo2');
 defined('DBTP') ? null : define ('DBTP' , 'p_');
 
 //Define your web accessible link to this script, including http:// or https:// with TRAILING SLASH / in the end !IMPORTANT
-defined('WEB_LINK') ? null : define('WEB_LINK' , 'http://kbo.technology/');
+defined('WEB_LINK') ? null : define('WEB_LINK' , 'http://127.0.0.1/kbo2/');
 defined('ERROR_LINK') ? null : define('ERROR_LINK' , WEB_LINK );
 defined('UPL_FILES') ? null : define('UPL_FILES' , WEB_LINK.'assets');
 
