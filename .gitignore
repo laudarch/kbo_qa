@@ -1,2 +1,4 @@
 ref/
 /.idea
+php_scan_results.php
+*.zip
