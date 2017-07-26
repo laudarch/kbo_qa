@@ -23,7 +23,7 @@ RewriteRule ^users/([^/]*)/([^/]*) users.php?id=$1&$2 [NC]
 RewriteRule ^page/([^/]*) pages.php?page=$1 [NC]
 
 
-ErrorDocument 404 http://127.0.0.1/kbo2/error-404.php
+ErrorDocument 404 http://kbo.technology/error-404.php
 
 <IfModule mod_headers.c>
 Header set X-XSS-Protection "1; mode=block"
