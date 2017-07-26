@@ -11,5 +11,6 @@
 
 require_once( "Hybrid/Auth.php" );
 require_once( "Hybrid/Endpoint.php" );
+require_once( "Hybrid/thirdparty/Facebook/autoload.php" );
 
 Hybrid_Endpoint::process();
