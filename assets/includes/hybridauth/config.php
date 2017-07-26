@@ -1,5 +1,7 @@
 <?php
-
+include_once(dirname(__FILE__) .'/../config.php');
+global $facebook_api;
+global $google_api;
 /**
  * HybridAuth
  * http://hybridauth.sourceforge.net | http://github.com/hybridauth/hybridauth
@@ -10,7 +12,7 @@
 // ----------------------------------------------------------------------------------------
 
 return array(
-    "base_url" => "http://localhost/hybridauth-git/hybridauth/",
+    "base_url" => WEB_LINK.'assets/includes/hybridauth/',
     "providers" => array(
         // openid providers
         "OpenID" => array(
@@ -25,11 +27,11 @@ return array(
         ),
         "Google" => array(
             "enabled" => true,
-            "keys" => array("id" => "", "secret" => ""),
+	    "keys" => array("id" => "{$google_api['id']}", "secret" => "{$google_api['secret']}"),
         ),
         "Facebook" => array(
             "enabled" => true,
-            "keys" => array("id" => "", "secret" => ""),
+	    "keys" => array("id" => "{$facebook_api['id']}", "secret" => "{$facebook_api['secret']}"),
             "trustForwarded" => false,
         ),
         "Twitter" => array(
