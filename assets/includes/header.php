@@ -33,7 +33,7 @@ $admanager2 = MiscFunction::get_function("admanager2");
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="<?php echo $title . " | " . APPSLOGAN; ?>">
     <meta name="keywords" content="<?php echo APPKEYWORDS; ?>">
-	<meta name="author" content="MichaelDesigns">
+	<meta name="author" content="KBO Dev Group">
     <link rel="icon" href="favicon.ico">
 
     <title><?php echo $title . " | " . APPNAME; ?></title>
